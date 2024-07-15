@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="home">
+        <nav class="navbar">
+            <div class="logo">MyBrand</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to MyBrand</h1>
+            <p>Creating stunning web experiences</p>
+            <a href="#services" class="btn">Our Services</a>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a leading web development company dedicated to creating beautiful and functional websites. Our team of experienced designers and developers is committed to delivering high-quality solutions that meet your needs and exceed your expectations.</p>
+        <p>Founded in 2010, MyBrand has helped numerous businesses establish their online presence and grow their digital footprint. We believe in the power of the web to transform businesses and are passionate about helping our clients succeed.</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <i class="fas fa-paint-brush service-icon"></i>
+            <h3>Web Design</h3>
+            <p>Creating visually stunning designs that captivate your audience. We focus on user-centered design principles to ensure an intuitive and engaging user experience.</p>
+        </div>
+        <div class="service-box">
+            <i class="fas fa-code service-icon"></i>
+            <h3>Development</h3>
+            <p>Building robust and scalable web applications tailored to your needs. Our development team uses the latest technologies to deliver high-performance solutions.</p>
+        </div>
+        <div class="service-box">
+            <i class="fas fa-chart-line service-icon"></i>
+            <h3>SEO Optimization</h3>
+            <p>Improving your website's visibility on search engines to attract more visitors. Our SEO experts use proven strategies to boost your search engine rankings.</p>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-box">
+            <p>"MyBrand transformed our website and helped us reach a larger audience. Their team is professional, creative, and highly skilled. We couldn't be happier with the results!"</p>
+            <h4>John Cena, CEO of Company</h4>
+        </div>
+        <div class="testimonial-box">
+            <p>"The web design and development services provided by MyBrand are top-notch. Our new website is beautiful, functional, and has significantly improved our online presence."</p>
+            <h4>Jane Smith, Marketing Director</h4>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 MyBrand. All rights reserved.</p>
+    </footer>
+</body>
+</html>
